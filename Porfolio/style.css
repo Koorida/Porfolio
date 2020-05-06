@@ -1,0 +1,88 @@
+/* style sheet */
+
+#navigation-bar {
+    background-color: #D8BFD8;
+    font-weight: 500;
+    height: 50px;
+}
+
+#navigatio-bar a {
+    color: #00BFFF;
+}
+
+.introduction strong {
+    color: #D8BFD8;
+}
+
+#intro {
+    background-color: #00BFFF;
+    width: auto;
+    height: 900px;
+    text-align: center;
+    z-index: 1;
+}
+
+.intro_content {
+    padding-top: 300px;
+    padding-bottom: 300px;
+    font-size: 3.125rem;
+    font-weight: none;
+}
+
+.intro_content p {
+    font-size: 1.5rem;
+}
+
+.intro_content button {
+    padding-top: auto;
+    width: 200px;
+    height: 50px;
+    font-weight: 600;
+    box-shadow: black;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px #D8BFD8;
+}
+
+
+/* corasel */
+
+.porfolio_preview_stack {
+    display: block;
+    background-color: #D8BFD8;
+}
+
+.porfolio_preview {
+    bottom: 300px;
+    position: relative;
+}
+
+#carouselExampleControls .carousel-inner {
+    border-radius: 15px;
+    margin: auto;
+    max-width: 1920px;
+    max-height: 600px;
+    width: 85%;
+    height: 50%;
+    box-shadow: 5px 10px #D8BFD8;
+    position: static;
+}
+
+#carouselExampleControls .carousel-inner img {
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* about */
+
+.about_me {
+    background-color: #D8BFD8;
+}
+
+.about_me h2 {
+    color: #00BFFF;
+}
