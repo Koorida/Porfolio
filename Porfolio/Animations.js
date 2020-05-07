@@ -1,0 +1,1 @@
+const newLocal = $("#porfolio-icon").animate({ params }, speed, callback);

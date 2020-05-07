@@ -1,0 +1,6 @@
+$(document).ready(function() {
+
+    $("#porfolio-icon").animate({ params }, speed, callback);
+
+
+});
