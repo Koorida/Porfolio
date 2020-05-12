@@ -1,5 +1,9 @@
 /* style sheet */
 
+* {
+    font-family: 'Noto Sans', sans-serif !important;
+}
+
 nav .navbar {
     background-color: #00BFFF;
 }
@@ -62,28 +66,28 @@ nav .navbar {
     margin: auto;
     max-width: 1920px;
     max-height: 600px;
-    width: 85%;
-    height: 50%;
+    width: 90%;
+    height: 100%;
     box-shadow: 5px 10px #D8BFD8;
     position: static;
 }
 
 #carouselExampleControls .carousel-inner img {
     border-radius: 15px;
+    max-width: 1920px;
+    max-height: 600px;
     width: 100%;
-    height: auto;
-    max-width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 
 /* about */
 
-.about_me {
+#about_me {
     background-color: #D8BFD8;
 }
 
-.about_me h2 {
+#about_me h2 {
     color: #00BFFF;
 }
 
@@ -98,12 +102,26 @@ nav .navbar {
 
 /*footer/contact sheet */
 
+.social_media_tab {
+    display: block;
+}
+
+.social_media_tab a img {
+    margin-top: 0;
+    margin-left: 30px;
+    height: 25px;
+    width: 25px;
+}
+
 
 /*//////////////////////////////////////////////////////////////////////////*/
 
 footer {
     background-color: #00BFFF !important;
 }
+
+
+/* form ///////////////////////////////////////////////*/
 
 input,
 textarea {
@@ -208,11 +226,6 @@ form {
     }
 }
 
-.displayInBlock {
-    display: inline-block;
-    height: 100%;
-}
-
 .top-decor {
     background-color: #D8BFD8;
     height: 20px;
@@ -221,9 +234,30 @@ form {
     left: 10px;
 }
 
-#footer_links ul {
-    list-style-type: none;
+footer form button {
+    align-items: center;
+    margin: 5px auto 5px auto;
+    width: 1040px;
+    max-width: 100%;
 }
+
+
+/* ///////////////////////////////////////////////////////*/
+
+.displayInBlock {
+    display: inline-block;
+}
+
+.importantLinks {
+    display: inline-block;
+}
+
+.social_media_tab {
+    display: block;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 
 /* media queries */

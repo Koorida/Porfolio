@@ -1,0 +1,16 @@
+/* gallary style */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: aqua;
+}
+
+.grid-item {
+    margin: 15px auto 15px auto;
+    padding: 10px;
+}
+
+.carousel img {
+    width: max-content;
+}

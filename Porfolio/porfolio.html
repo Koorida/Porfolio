@@ -11,13 +11,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <script type="text/javascript" src="./Animations.jquery"></script>
 </head>
 
 <body>
     <!--navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
         <a class="navbar-brand" href="#">Porfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -29,22 +30,16 @@
                     <a class="nav-link" href="#" id="home" name="home">Home<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" id="porfolio" name="porfolio">Porfolio</a>
+                    <a class="nav-link" href="" target="_top" id="porfolio" name="porfolio">Porfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" id="about_me" name="about_me">About Me!</a>
+                    <a class="nav-link" href="#about_me" id="aboutpage" name="about_me">About Me!</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" id="skills" name="skills">Skills</a>
+                    <a class="nav-link" href="#skills" name="skills">Resume</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" id="expirience" name="experience">Expirience</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="education" name="education">Education</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#" id="contact" name="contact">Contact</a>
+                    <a class="nav-link" href="#contact_form" id="contact" name="contact">Contact</a>
                 </li>
                 </li>
             </ul>
@@ -92,43 +87,43 @@
             </div>
         </div>
         <!--About Me-->
-        <div class="container-fluid about_me">
-            <div class="jumbotron">
-                <h1 class="display-4">About Me!</h1>
-                <p class="lead">Hello! and welcome to my porfolio. my name is Emmanuel Taveras im an aspiring software developer and student livnig in NYC. other then coding i spend a good portion of my time at the gym or going for a jug, i got apuppy named baby! and
+        <div class="container-fluid " id="about_me">
+            <div class=" jumbotron ">
+                <h1 class="display-4 ">About Me!</h1>
+                <p class="lead ">Hello! and welcome to my porfolio. my name is Emmanuel Taveras im an aspiring software developer and student livnig in NYC. other then coding i spend a good portion of my time at the gym or going for a jug, i got apuppy named baby! and
                     he need his exercise. I was borned in the DOminican Republic and migrated to the united states at the age of 11 with my parents and siblings, and i live to travel</p>
-                <hr class="my-4">
+                <hr class="my-4 ">
                 <p>im curretly working on blah blah blah</p>
                 <!--for current projects-->
-                <a class="btn btn-primary btn-lg" href="#" role="button" id="learn_more_button">Learn more</a>
+                <a class="btn btn-primary btn-lg " href="# " role="button " id="learn_more_button ">Learn more</a>
             </div>
         </div>
         <!----Skilss page-->
-        <div class="container-fluid">
-            <h3 class="skills-tab" name="skills-tab">Skills</h3>
+        <div class="container-fluid " id="skills">
+            <h3 class="skills-tab " name="skills-tab ">Skills</h3>
             <br>
             <div>
-                <h3 class="first_skill" name="first_skill"></h3>
+                <h3 class="first_skill " name="first_skill "></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida quis turpis condimentum malesuada. Donec nibh nunc, lobortis sed dolor a, posuere vestibulum ligula. Mauris vel porta lorem.</p>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida quis turpis condimentum malesuada. Donec nibh nunc, lobortis sed dolor a, posuere vestibulum ligula. Mauris vel porta lorem.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida quis turpis condimentum malesuada. Donec nibh nunc, lobortis sed dolor a, posuere vestibulum ligula. Mauris vel porta lorem.</p>
         </div>
         <!---Expirience-->
-        <div class="container-fluid" id="education-tab" name="education0-tab">
-            <h4 id="educaion-title">Expirience</h4>
+        <div class="container-fluid " id="education-tab " name="education0-tab ">
+            <h4 id="educaion-title ">Expirience</h4>
             <div>
-                <h3 class="first_skill" name="first_skill"></h3>
+                <h3 class="first_skill " name="first_skill "></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida quis turpis condimentum malesuada. Donec nibh nunc, lobortis sed dolor a, posuere vestibulum ligula. Mauris vel porta lorem.</p>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida quis turpis condimentum malesuada. Donec nibh nunc, lobortis sed dolor a, posuere vestibulum ligula. Mauris vel porta lorem.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida quis turpis condimentum malesuada. Donec nibh nunc, lobortis sed dolor a, posuere vestibulum ligula. Mauris vel porta lorem.</p>
         </div>
         <!--Education-->
-        <div>
+        <div class="container-fluid">
             <h3>Education</h3>
             <div>
-                <h3 class="first_skill" name="first_skill"></h3>
+                <h3 class="first_skill " name="first_skill "></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida quis turpis condimentum malesuada. Donec nibh nunc, lobortis sed dolor a, posuere vestibulum ligula. Mauris vel porta lorem.</p>
             </div>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida quis turpis condimentum malesuada. Donec nibh nunc, lobortis sed dolor a, posuere vestibulum ligula. Mauris vel porta lorem.</p>
@@ -138,36 +133,35 @@
         <footer>
             <div class="top-decor" name="top-decor"></div>
             <!--contact-->
-            <form action="/" class="decor displayInBlock">
-                <div class="form-left-decoration"></div>
-                <div class="form-right-decoration"></div>
-                <div class="circle"></div>
-                <div class="form-inner">
-                    <h1 class="contac-me">Quick Contact</h1>
-                    <input type="text" placeholder="Username">
-                    <input type="email" placeholder="Email">
-                    <textarea placeholder="Message..." rows="5"></textarea>
-                    <button type="button" class="btn btn-primary">Submit</button>
+            <form action="/ " class="displayInBlock" id="contact_form">
+                <div class="form-left-decoration "></div>
+                <div class="form-right-decoration "></div>
+                <div class="circle "></div>
+                <div class="form-inner ">
+                    <h1 class="contac-me ">Quick Contact</h1>
+                    <input type="text " placeholder="Username ">
+                    <input type="email " placeholder="Email ">
+                    <textarea placeholder="Message... " rows="5 "></textarea>
+                    <button type="button " class="btn btn-primary ">Submit</button>
                 </div>
             </form>
-            <div class="displayInBlock">
-                <div class=" container-fluid" id="footer_links">
-                    <ul>
-                        <li><a href="# ">Home</a></li>
-                        <li><a href="# ">Porfolio</a></li>
-                        <li><a href="# ">About Me!</a></li>
-                        <li><a href="# ">skills</a></li>
-                        <li><a href="# ">Expirience</a></li>
-                        <li><a href="# ">Education</a></li>
+            <div class="displayInBlock ">
+                <div class=" container-fluid " id="footer_links ">
+                    <ul style="list-style: none;">
+                        <li><a class="link-reference " href="# ">Home<span class="sr-only">(current)</span></a></li>
+                        <li><a class="link-reference " href="# ">Porfolio</a></li>
+                        <li><a class="link-reference " href="#about_me">About Me!</a></li>
+                        <li><a class="link-reference " href="#skills ">Resume</a></li>
                     </ul>
                 </div>
+                <!--Social media links--->
+                <div class="social_media_tab ">
+                    <a class="social-link " href="https://www.facebook.com/ "><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png "></a>
+                    <a class="social-link " href="https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo "><img src="https://image.flaticon.com/icons/svg/174/174857.svg "></a>
+                    <a class="social-link " href="https://www.facebook.com/ "><img src="https://en.instagram-brand.com/wp-content/uploads/2016/11/Glyph-Icon-hero.png "></a>
+                </div>
             </div>
-            <!--Social media links--->
-            <div class="social_media_tab">
-                <a class="social-link" href="https://www.facebook.com/"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png"></a>
-                <a class="social-link" href="https://www.facebook.com/"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png"></a>
-                <a class="social-link" href="https://www.facebook.com/"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Facebook_colored_svg_copy-512.png"></a>
-            </div>
+
         </footer>
 </body>
 
