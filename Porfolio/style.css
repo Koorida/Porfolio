@@ -8,6 +8,10 @@ nav .navbar {
     background-color: #00BFFF;
 }
 
+nav .navbar-brand img {
+    height: 40px;
+    width: 40px;
+}
 
 /*///////////////////////////////////////////////////////////////////////*/
 

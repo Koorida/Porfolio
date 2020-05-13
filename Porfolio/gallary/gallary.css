@@ -1,16 +1,17 @@
 /* gallary style */
 
-.grid-container {
+#grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     background-color: aqua;
 }
 
-.grid-item {
+#grid-item {
     margin: 15px auto 15px auto;
     padding: 10px;
+    width: fit-content;
+
 }
 
 .carousel img {
-    width: max-content;
 }
