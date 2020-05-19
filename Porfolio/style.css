@@ -4,6 +4,8 @@
     font-family: 'Noto Sans', sans-serif !important;
 }
 
+
+
 nav .navbar {
     background-color: #00BFFF;
 }
@@ -12,6 +14,8 @@ nav .navbar-brand img {
     height: 40px;
     width: 40px;
 }
+
+
 
 /*///////////////////////////////////////////////////////////////////////*/
 
@@ -65,6 +69,18 @@ nav .navbar-brand img {
     position: relative;
 }
 
+#carouselExampleControls {
+    width: 100%;
+}
+
+#carouselExampleControls .carousel-control-next {
+    width: 100px;
+}
+
+#carouselExampleControls .carousel-control-prev {
+    width: 100px;
+}
+
 #carouselExampleControls .carousel-inner {
     border-radius: 15px;
     margin: auto;
@@ -85,6 +101,28 @@ nav .navbar-brand img {
 }
 
 
+.carousel-control-prev {
+    background-color: #d0dfe8;
+    height: 90px;
+    width: 20px;
+    margin-top: 255px;
+    border-radius: 10%;
+    margin-left: 50px;
+
+}
+
+.carousel-control-next {
+    background-color: #d0dfe8;
+    height: 90px;
+    width: 20px;
+    margin-top: 255px;
+    border-radius: 10%;
+    margin-right: 50px;
+    opacity: 5%;
+}
+
+
+
 /* about */
 
 #about_me {
@@ -103,9 +141,23 @@ nav .navbar-brand img {
     box-shadow: 5px 10px #00BFFF;
 }
 
-
-/*footer/contact sheet */
-
+.current_Project {
+    position: relative;
+}
+/* caption for current projects */
+.caption_name{
+    background-color: aliceblue;
+    position: absolute;
+    left: 200px;
+    bottom: 140px;
+}
+.caption_exp{
+    background-color: aliceblue;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+/*//////////////////////////////////////////////////*/
 .social_media_tab {
     display: block;
 }
@@ -116,6 +168,18 @@ nav .navbar-brand img {
     height: 25px;
     width: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*//////////////////////////////////////////////////////////////////////////*/

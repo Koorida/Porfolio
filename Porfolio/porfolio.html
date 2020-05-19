@@ -77,11 +77,17 @@
                     </div>
                 </div>
                 <a class="carousel-control-prev " href="#carouselExampleControls " role="button " data-slide="prev ">
-                    <span class="carousel-control-prev-icon " aria-hidden="true "></span>
-                    <span class="sr-only ">Previous</span>
+                    <svg class="bi bi-arrow-bar-left" width="100px" height="50px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M5.854 4.646a.5.5 0 00-.708 0l-3 3a.5.5 0 000 .708l3 3a.5.5 0 00.708-.708L3.207 8l2.647-2.646a.5.5 0 000-.708z" clip-rule="evenodd"/>
+                        <path fill-rule="evenodd" d="M10 8a.5.5 0 00-.5-.5H3a.5.5 0 000 1h6.5A.5.5 0 0010 8zm2.5 6a.5.5 0 01-.5-.5v-11a.5.5 0 011 0v11a.5.5 0 01-.5.5z" clip-rule="evenodd"/>
+                      </svg>
+                    <span class="sr-only " id="arrow-prev">Previous</span>
                 </a>
                 <a class="carousel-control-next " href="#carouselExampleControls " role="button " data-slide="next ">
-                    <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                    <svg class="bi bi-arrow-bar-right" width="100px" height="50px" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L12.793 8l-2.647-2.646a.5.5 0 010-.708z" clip-rule="evenodd"/>
+                        <path fill-rule="evenodd" d="M6 8a.5.5 0 01.5-.5H13a.5.5 0 010 1H6.5A.5.5 0 016 8zm-2.5 6a.5.5 0 01-.5-.5v-11a.5.5 0 011 0v11a.5.5 0 01-.5.5z" clip-rule="evenodd"/>
+                      </svg>
                     <span class="sr-only ">Next</span>
                 </a>
             </div>
@@ -90,12 +96,31 @@
         <div class="container-fluid " id="about_me">
             <div class=" jumbotron ">
                 <h1 class="display-4 ">About Me!</h1>
-                <p class="lead ">Hello! and welcome to my porfolio. my name is Emmanuel Taveras im an aspiring software developer and student livnig in NYC. other then coding i spend a good portion of my time at the gym or going for a jug, i got apuppy named baby! and
-                    he need his exercise. I was borned in the DOminican Republic and migrated to the united states at the age of 11 with my parents and siblings, and i live to travel</p>
+                <p class="lead ">Hello! and welcome to my porfolio. my name is Emmanuel Taveras im an aspiring software developer and student livnig in NYC. other then coding i spend a good portion of my time at the gym or going for a jug, socializing with friends. i have a puppy named baby!. I was born in the Dominican Republic, came to to the United States at the age of 11 with my parents and siblings, and i live to travel. </p>
                 <hr class="my-4 ">
                 <p>im curretly working on blah blah blah</p>
                 <!--for current projects-->
-                <a class="btn btn-primary btn-lg " href="# " role="button " id="learn_more_button ">Learn more</a>
+                <div class="current_Project" name="current_pg" >
+                    <img  height="300px" width="500px" src="http://www.northamericanentertainment.com/wp-content/uploads/2014/12/coming-soon.jpg" alt="Current_project">
+                    <div class="caption_name"><h2 class="current_name_project"></h2>Current Project</div>
+                    <div class="caption_exp"><p class="current_exp_project">Current Project explanation blah blah blah</p></div>
+                </div>
+                <br>
+                    <div class="current_project_links">
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            Link with href
+                            </a>
+                            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            Button with data-target
+                            </button>
+                        </p>
+                    </div>      
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    </div>
+                  </div>
             </div>
         </div>
         <!----Skilss page-->
